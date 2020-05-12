@@ -1,0 +1,30 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  display flex;
+  justify-content;
+  align-items;
+  margin: 35vh;
+  background: #ffffff;
+  font-family: consolas;
+}
+a
+{
+  position: relative;
+  display: inline-block;
+  padding: 1px 2px;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  text-decoration: none;
+  font-size: 16px;
+  overflow: hidden;
+  transition: 0.2s;
+}
+a:hover
+{
+  color: #25578;
+  background: #894ce6;
+  box-shadow: 0 0 10px #894ce6, 0 0 40px #894ce6, 0 0 80px #894ce6;
+}
